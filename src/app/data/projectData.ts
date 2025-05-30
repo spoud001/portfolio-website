@@ -8,6 +8,7 @@ export const projectData = [
     image: '/metascan.jpg',
     video: 'https://www.youtube.com/embed/UO5FhSLUfRU?si=EkhSQ1bYzIybl5c4',
     tech: ['Python', 'OpenCV', 'Selenium', 'Web Scrapping'],
+    link: '',
   
   },
    {
@@ -52,6 +53,7 @@ export const projectData = [
     description: 'Overlays GPR heatmap in AR using Unity to visualize unoccupied burial plots.',
     image: '/Cemetery.jpg',
     tech: ['Unity', 'AR Foundation', 'GPRPy'],
+    link: '',
   },
   {
     title: 'Mascot Madness',
@@ -59,6 +61,7 @@ export const projectData = [
     description: 'VR experience featuring photogrammetry-modeled mascot and custom-designed Plattsburgh buildings.',
     image: '/MascotMadness.jpg',
     tech: ['Unreal Engine', 'C++', 'Blender'],
+    link: '',
 
   },
   {
