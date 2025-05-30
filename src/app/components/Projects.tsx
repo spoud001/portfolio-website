@@ -39,7 +39,7 @@ export default function Projects() {
             <ProjectCard
               key={i}
               {...project}
-              onWatchDemo={() => setSelectedVideo(project.video)}
+              onWatchDemo={() => setSelectedVideo(project.video ?? null)}
             />
           ))}
         </div>
