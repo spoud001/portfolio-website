@@ -5,7 +5,7 @@ export const projectData = [
     title: 'MetaScan',
     category: 'AI',
     description: 'Captures faces from video and performs reverse image searches.',
-    image: '/metascan.jpg',
+    image: '/MetaScan.jpg',
     video: 'https://www.youtube.com/embed/UO5FhSLUfRU?si=EkhSQ1bYzIybl5c4',
     tech: ['Python', 'OpenCV', 'Selenium', 'Web Scrapping'],
     link: '',
