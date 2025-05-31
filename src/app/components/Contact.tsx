@@ -41,7 +41,7 @@ export default function Contact() {
         <p className="text-sm text-gray-500 mt-2">
   or reach out via{' '}
   <a
-    href="https://www.linkedin.com/in/spoud001/"
+    href="https://www.linkedin.com/in/sandesh-poudel-dev/"
     target="_blank"
     rel="noopener noreferrer"
     className="underline text-purple-400 hover:text-purple-300 transition"

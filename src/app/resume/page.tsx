@@ -113,7 +113,7 @@ export default function ResumePage() {
       {/* Download Resume */}
       <div className="text-center mb-8">
         <a
-  href="/Sandes_Resume.pdf"
+  href="/resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-block bg-neon-green text-black px-5 py-3 rounded-full font-semibold hover:scale-105 transition"
