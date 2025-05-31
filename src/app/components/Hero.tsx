@@ -53,7 +53,7 @@ export default function Hero() {
                           shadow-[0_0_40px_#00FFAB40] hover:shadow-[0_0_60px_#00FFAB80] 
                           transition-all duration-300 hover:scale-105 overflow-hidden">
             <Image
-              src="/profile.jpg"
+              src="/profile.png"
               alt="Sandesh Poudel"
               fill
               className="object-top object-cover"
