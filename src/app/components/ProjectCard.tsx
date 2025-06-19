@@ -10,7 +10,7 @@ interface ProjectProps {
   image: string
   video?: string
   tech: string[]
-  link: string
+  link?: string
   onWatchDemo?: () => void
 }
 

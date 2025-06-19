@@ -1,5 +1,6 @@
 'use client'
 
+
 import Link from 'next/link'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -58,6 +59,13 @@ export default function ResumePage() {
       date: 'Spring 2025',
       description:
         'Developed a pipeline using OpenCV and reverse image search to study privacy implications of Meta glasses.',
+    },
+    {
+      title: 'Smart PDF AI Assistant',
+      subtitle: 'Next.js, FastAPI, OpenAI/Gemini',
+      date: 'May 2025',
+      description:
+        'Web app that lets users upload PDFs and chat with them using natural language. Supports summarization, Q&A, and interactive highlighting.',
     },
     {
       title: 'Mascot Madness',
