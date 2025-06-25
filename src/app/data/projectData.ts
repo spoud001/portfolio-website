@@ -1,10 +1,19 @@
 // src/app/data/projectData.ts
 
 export const projectData = [
+    {
+    title: 'InsightIQ',
+    category: 'AI',
+    description: 'InsightIQ is a full-stack AI-powered analytics platform that allows users to upload CSV datasets and instantly generate visual insights, machine learning predictions, and natural language explanations. It combines traditional data science tools with modern LLM-based Q&A, enabling users to ask deep, conversational questions about their data and receive meaningful, contextual answers. With a beautiful, responsive interface and secure user authentication, InsightIQ transforms raw data into interactive and insightful dashboards.',
+    image: '/InsightIQ.jpg',
+    video: 'https://www.youtube.com/embed/2XmltyxdXOI?si=4OoKduF5vq3hTciY',
+    tech: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'OpenAI', 'FAISS', 'scikit-learn', 'Tailwind CSS'],
+    link: 'https://github.com/spoud001/InsightsIQ',
+  },
   {
     title: 'MetaScan',
     category: 'AI',
-    description: 'Captures faces from video and performs reverse image searches.',
+    description: 'MetaScan is a privacy-awareness tool that captures faces from live video streams using OpenCV, then conducts automated reverse image searches to investigate the digital traceability of those identities. It highlights the growing concerns around facial surveillance, showing how wearable or embedded devices can collect facial data without consent and potentially match it to online profiles. Built using Python, Selenium, and web scraping techniques, MetaScan explores ethical implications of computer vision and open-source intelligence (OSINT) in the AI era.',
     image: '/MetaScan.jpg',
     video: 'https://www.youtube.com/embed/UO5FhSLUfRU?si=EkhSQ1bYzIybl5c4',
     tech: ['Python', 'OpenCV', 'Selenium', 'Web Scrapping'],
@@ -14,16 +23,16 @@ export const projectData = [
    {
     title: 'Speech-to-Math Calculator',
     category: 'AI',
-    description: 'Evaluates spoken math expressions using speech recognition and provides verbal responses.',
+    description: 'This voice-powered calculator translates spoken mathematical expressions into symbolic equations and computes the result instantly. It supports operations like addition, subtraction, square roots, powers, and more. Built with Python and integrated with a Tkinter GUI, it combines speech recognition, natural language parsing, and text-to-speech to create an accessible tool for quick calculations without manual input.',
     image: '/speech-to-math.jpg',
     video: 'https://www.youtube.com/embed/kcfB0pAi_c0?si=gz9cnnO2cPoUMyxG',
     tech: ['Python', 'Tkinter', 'SpeechRecognition'],
     link: 'https://github.com/spoud001/Speech-Math',
   },
   {
-    title: 'Inventory Manager',
+    title: 'Inventory Management Tool',
     category: 'Tools',
-    description: 'Track inventory with C++ GUI and PostgreSQL backend.',
+    description: 'A desktop-based inventory management application built using C++ and Qt for the frontend, and PostgreSQL for data storage. The system allows users to add, update, delete, and search product records efficiently. It replaces error-prone CSV-based management with robust SQL-driven workflows and includes features like product categorization, transaction history, and quantity tracking.',
     image: '/InventoryManagement.jpg',
     video: 'https://www.youtube.com/embed/91ZxndRyIEo?si=YJcB2PpZIzOibXQc',
     tech: ['C++', 'Qt', 'PostgreSQL'],
@@ -33,7 +42,7 @@ export const projectData = [
   {
     title: 'Smart PDF Q&A Tool',
     category: 'AI',
-    description: 'Uploads PDFs and allows users to ask questions, generate summaries',
+    description: 'Smart PDF Q&A is a web application that allows users to upload PDF documents and ask natural language questions based on their content. It uses LLMs to chunk and embed document sections with semantic search (FAISS), enabling contextual understanding and interactive answers. The system supports summarization, question generation, and chat-based Q&A, making it ideal for reading academic papers, legal documents, or business reports efficiently.',
     image: '/SmartPDF.jpg',
     video: 'https://www.youtube.com/embed/YaeUEYvREGU?si=Cs0OFXNyrY_sZV1x',
     tech: ['Next.js', 'TypeScript','Tailwind CSS', 'Gemini'],
@@ -42,7 +51,7 @@ export const projectData = [
   {
     title: 'Meso-American Pathfinders',
     category: 'ML',
-    description: 'Detects language of Mesoamerican cities and maps them using ArcGIS and Python.',
+    description: 'Part of an archaeology-driven internship, this project explores historical trade routes in Mesoamerica by analyzing ancient place names. Using AI-powered language detection (TFLite), city names are classified by language (Spanish, English, or native), then geocoded and visualized in ArcGIS. The project merges linguistic analysis with geospatial mapping to reconstruct patterns of influence and migration in pre-Columbian Central America.',
     image: '/Pathfinders.jpg',
     tech: ['Python', 'MediaPipe', 'ArcGIS'],
     link: 'https://github.com/spoud001/Language_detection',
@@ -50,7 +59,7 @@ export const projectData = [
   {
     title: 'Cemetery AR Heatmap',
     category: 'AR',
-    description: 'Overlays GPR heatmap in AR using Unity to visualize unoccupied burial plots.',
+    description: 'This AR application overlays a 3D ground-penetrating radar heatmap on a cemetery site to identify unoccupied burial plots. Using Unity and Niantic Lightship AR SDK, the system renders a GLTF-based heatmap cube onto real-world coordinates. The project integrates spatial computing, Unity plane detection, and archaeological data visualization to aid in ethical site planning and cultural preservation.',
     image: '/Cemetery.jpg',
     tech: ['Unity', 'AR Foundation', 'GPRPy'],
     link: '',
@@ -58,7 +67,7 @@ export const projectData = [
   {
     title: 'Mascot Madness',
     category: 'VR',
-    description: 'VR experience featuring photogrammetry-modeled mascot and custom-designed Plattsburgh buildings.',
+    description: 'Mascot Madness is a VR game built with Unreal Engine and C++ where players interact with a photogrammetry-scanned mascot character. Players explore campus landmarks and complete tasks in an immersive educational environment. The project showcases skills in game development, 3D modeling with Blender, and photogrammetry, and was created as part of a Tech Startup course.',
     image: '/MascotMadness.jpg',
     tech: ['Unreal Engine', 'C++', 'Blender'],
     link: '',
@@ -67,7 +76,7 @@ export const projectData = [
   {
     title: 'World Cup 2022 Live Tracker',
     category: 'Web',
-    description: 'Web app that displayed live scores and match updates during the 2022 FIFA World Cup.',
+    description: 'This real-time web dashboard displays live scores and match stats for the FIFA World Cup 2022. Built using APIs and displayed in a clean UI, users can track ongoing games, upcoming fixtures, and final results. It emphasizes real-time data processing, user experience design, and API integration.',
     image: '/LiveScores.jpg',
     tech: ['React', 'JavaScript'],
     link: 'https://github.com/spoud001/worldcup_2022_live_scores',
@@ -75,7 +84,7 @@ export const projectData = [
   {
   title: 'FactCheck AI',
   category: 'AI ',
-  description: 'Verifies headlines and articles using Gemini AI, sentiment analysis, and real-time fact-check APIs.',
+  description: 'Fact-Check AI is a misinformation detection tool that takes in headlines or article snippets and determines their credibility using sentiment analysis and AI-driven validation. It fetches and summarizes supporting evidence from reliable sources, scoring the claim’s trustworthiness. Built during a hackathon, this project aims to combat fake news using LLMs and intelligent web search.',
   image: '/FactCheck.jpg',
   video: 'https://www.youtube.com/embed/j7OqD2Id0-U?si=uvj--CWMAXA0bc1N',
   tech: ['Flask', 'Gemini API', 'JavaScript'],
@@ -84,7 +93,7 @@ export const projectData = [
   {
     title: 'CUDA Prime Sieve',
     category: 'CUDA',
-    description: 'Accelerated Sieve of Eratosthenes using CUDA to compute primes up to 400,000 efficiently.',
+    description: 'An optimized implementation of the Sieve of Eratosthenes using CUDA to compute prime numbers up to 400,000. This project demonstrates parallel GPU programming, memory management, and performance benchmarking. It was developed during an independent study on parallel algorithms and achieves significant speedups compared to CPU-based methods.',
     image: '/CUDA.jpg',
     tech: ['CUDA', 'C++'],
     link: 'https://github.com/spoud001/Parallel_seive_eratosthenes_writing',
